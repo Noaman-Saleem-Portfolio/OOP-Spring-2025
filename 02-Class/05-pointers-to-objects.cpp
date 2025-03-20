@@ -52,8 +52,7 @@ int main()
     cout << rectPtr->getWidth() << endl;
     cout << rectPtr->getLength() << endl;
 
-    // Delete the object from memory.
-    delete rectPtr;
+    
     rectPtr = nullptr;
 
     return 0;
