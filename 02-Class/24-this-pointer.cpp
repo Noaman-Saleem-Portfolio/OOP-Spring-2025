@@ -80,6 +80,7 @@ double Rectangle::getArea() const
 
 int main()
 {
+    // The this pointer always points to the object that is being used to call the member function.
     // Define two Rectangle objects.
     Rectangle box1(10.0, 20.0); // width = 10.0, length = 20.0
 
