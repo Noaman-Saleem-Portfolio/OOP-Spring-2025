@@ -120,7 +120,7 @@ int main()
     student2 = student1;
 
     // can also be written as
-    student2.operator=(student1);
+    // student2.operator=(student1);
 
     cout << "Student 1 testScores Array address = " << student1.printAddress() << endl;
     cout << "Student 2 testScores Array address = " << student2.printAddress() << endl;
