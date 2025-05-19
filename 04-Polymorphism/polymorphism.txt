@@ -1,0 +1,19 @@
+Polymorphism
+Polymorphism in C++ enables objects of different classes to respond to the same function or operator in their own specific ways. It translates to "many forms," allowing a single action to behave differently depending on the object it's acting upon. Polymorphism is a core concept in object-oriented programming that enhances code flexibility and reusability.
+
+Types of Polymorphism
+
+Compile-time (Static) Polymorphism:
+Achieved through 
+function overloading and 
+operator overloading. 
+The compiler determines which function to call at compile time based on the function signature (name and parameters).
+Function Overloading: Multiple functions with the same name but different parameters within the same scope.
+Operator Overloading: Redefining the behavior of operators for user-defined types.
+
+Run-time (Dynamic) Polymorphism:
+Achieved through 
+virtual functions and 
+inheritance. 
+The function to be called is resolved at run time based on the object's actual type.
+Virtual Functions: Declared in a base class and overridden in derived classes, enabling dynamic dispatch of function calls.
